@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slot Game Engine</title>
+    <style>*{box-sizing:border-box;margin:0;padding:0}body{background-color:#121212;width:100vw;height:100dvh;overflow:hidden}#game-container{width:100vw;height:100dvh;position:relative;overflow:hidden}#game-container canvas{width:100%;height:100%;display:block}#loading-screen{z-index:1;color:#fff;background:#1a1a2e;flex-direction:column;justify-content:center;align-items:center;gap:16px;font:600 20px Arial,sans-serif;display:none;position:absolute;inset:0}#loading-bar-track{background:#292944;border:1px solid #7272a8;border-radius:999px;width:min(360px,70%);height:14px;overflow:hidden}#loading-bar{border-radius:inherit;background:linear-gradient(90deg,#7c4dff,#00d4ff);width:0%;height:100%;transition:width .12s ease-out}#loading-progress{color:#c8c8e8;font-size:14px}</style>
+  <script type="module" crossorigin src="/slotEngineDemo/assets/index-NkyBN_TO.js"></script>
+  <link rel="modulepreload" crossorigin href="/slotEngineDemo/assets/CanvasPool-BWkSQtO_.js">
+  <link rel="modulepreload" crossorigin href="/slotEngineDemo/assets/Filter-gx35gWVw.js">
+  <link rel="modulepreload" crossorigin href="/slotEngineDemo/assets/canvasUtils-CVhDZ97B.js">
+  <link rel="modulepreload" crossorigin href="/slotEngineDemo/assets/Cache-C6GUtXy-.js">
+  <link rel="modulepreload" crossorigin href="/slotEngineDemo/assets/GCManagedHash-0YX1h6PC.js">
+  <link rel="modulepreload" crossorigin href="/slotEngineDemo/assets/RenderTargetSystem-CHG8ZFSK.js">
+  <link rel="modulepreload" crossorigin href="/slotEngineDemo/assets/getTextureBatchBindGroup-CwHSiGbq.js">
+  <link rel="modulepreload" crossorigin href="/slotEngineDemo/assets/GraphicsContext-Cicb3OQU.js">
+  <link rel="modulepreload" crossorigin href="/slotEngineDemo/assets/BufferResource-DbxOq12d.js">
+</head>
+<body>
+    <div id="game-container">
+        <div id="loading-screen" role="status" aria-live="polite">
+            <div id="loading-message">Loading game...</div>
+            <div id="loading-bar-track" role="progressbar" aria-label="Game loading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                <div id="loading-bar"></div>
+            </div>
+            <div id="loading-progress">0%</div>
+        </div>
+    </div>
+</body>
+</html>
