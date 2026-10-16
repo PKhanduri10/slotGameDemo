@@ -1,4 +1,4 @@
-import{I as e,U as t,d as n,i as r,r as i,x as a}from"./CanvasPool-BWkSQtO_.js";import{h as o}from"./RenderTargetSystem-CHG8ZFSK.js";import{p as s}from"./GCManagedHash-0YX1h6PC.js";var c={name:`local-uniform-bit`,vertex:{header:`
+import{I as e,U as t,d as n,i as r,r as i,x as a}from"./CanvasPool-BWkSQtO_.js";import{h as o}from"./RenderTargetSystem-C6qNidz9.js";import{m as s}from"./GCManagedHash-BhToCNTU.js";var c={name:`local-uniform-bit`,vertex:{header:`
 
             struct LocalUniforms {
                 uTransformMatrix:mat3x3<f32>,
@@ -193,4 +193,4 @@ import{I as e,U as t,d as n,i as r,r as i,x as a}from"./CanvasPool-BWkSQtO_.js";
         data[offset + 2] = v[2];
         data[offset + 3] = v[3];
     `},S=class extends t{constructor({buffer:t,offset:n,size:r}){super(),this.uid=e(`buffer`),this._resourceType=`bufferResource`,this._resourceId=e(`resource`),this._bufferResource=!0,this.destroyed=!1,this.buffer=t,this.offset=n|0,this.size=r,this.buffer.on(`change`,this.onBufferChange,this)}get _gcLastUsed(){return this.buffer?._gcLastUsed??-1}set _gcLastUsed(e){this.buffer&&(this.buffer._gcLastUsed=e)}onBufferChange(){this._resourceId=e(`resource`),this.emit(`change`,this)}destroy(e=!1){this.destroyed=!0,e&&this.buffer.destroy(),this.emit(`change`,this),this.buffer=null,this.removeAllListeners()}};export{_ as a,p as c,c as d,u as f,v as i,d as l,b as n,g as o,l as p,x as r,h as s,S as t,f as u};
-//# sourceMappingURL=BufferResource-DbxOq12d.js.map
+//# sourceMappingURL=BufferResource-5Tj_8Isr.js.map
