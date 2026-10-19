@@ -236,7 +236,7 @@
   "meta": {
     "app": "Christmas Slot Machine Sprite Sheet & JSON Generator",
     "version": "2.0.0",
-    "image": "christmas_slot_spritesheet_256px.png",
+    "image": "symbolWin.png",
     "format": "RGBA8888",
     "size": {
       "w": 1024,
