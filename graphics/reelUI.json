@@ -1,0 +1,195 @@
+{
+  "frames": {
+    "reel_frame": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1180,
+        "h": 660
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1180,
+        "h": 660
+      },
+      "sourceSize": {
+        "w": 1180,
+        "h": 660
+      }
+    },
+    "game_logo": {
+      "frame": {
+        "x": 1190,
+        "y": 190,
+        "w": 575,
+        "h": 300
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 635,
+        "h": 350
+      },
+      "sourceSize": {
+        "w": 635,
+        "h": 350
+      }
+    },
+    "settings": {
+      "frame": {
+        "x": 0,
+        "y": 650,
+        "w": 220,
+        "h": 210
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 220,
+        "h": 210
+      },
+      "sourceSize": {
+        "w": 220,
+        "h": 210
+      }
+    },
+    "blue": {
+      "frame": {
+        "x": 215,
+       "y": 710,
+       "w": 300,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 295,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 295,
+        "h": 170
+      }
+    },
+    "purple": {
+      "frame": {
+        "x": 530,
+         "y": 710,
+       "w": 270,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 255,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 295,
+        "h": 170
+      }
+    },
+    "green": {
+      "frame": {
+        "x": 810,
+        "y": 710,
+       "w": 300,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 300,
+        "h": 170
+      }
+    },
+    "spin": {
+      "frame": {
+        "x": 1100,
+        "y": 655,
+        "w": 270,
+        "h": 230
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 260
+      },
+      "sourceSize": {
+        "w": 290,
+        "h": 260
+      }
+    },
+    "orange": {
+      "frame": {
+        "x": 1310,
+        "y": 665,
+        "w": 280,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 280,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 280,
+        "h": 170
+      }
+    },
+    "menu": {
+      "frame": {
+        "x": 1530,
+        "y": 665,
+        "w": 240,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 240,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 240,
+        "h": 190
+      }
+    }
+  },
+  "meta": {
+    "app": "TexturePacker",
+    "version": "2.0.0",
+    "image": "reelUI.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  }
+}
