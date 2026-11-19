@@ -1,0 +1,74 @@
+{
+  "title": "Christmas Eve – Complete Audio Sprite",
+  "file": "gameSounds.wav",
+  "sample_rate": 48000,
+  "channels": 2,
+  "format": "WAV PCM 16-bit",
+  "total_duration_seconds": 23.53,
+  "segments": [
+    {
+      "id": "ambience",
+      "label": "Background ambience",
+      "start_seconds": 0.0,
+      "duration_seconds": 15.0,
+      "loop": true
+    },
+    {
+      "id": "sound_effects",
+      "label": "Sound effects section",
+      "start_seconds": 15.5,
+      "duration_seconds": 8.03,
+      "loop": false
+    }
+  ],
+  "sounds": [
+    {
+      "id": "button_click",
+      "label": "Button click",
+      "start_seconds": 15.5,
+      "duration_seconds": 0.1
+    },
+    {
+      "id": "soft_transition",
+      "label": "Soft transition",
+      "start_seconds": 15.72,
+      "duration_seconds": 0.75
+    },
+    {
+      "id": "sparkle",
+      "label": "Christmas sparkle",
+      "start_seconds": 16.59,
+      "duration_seconds": 1.4
+    },
+    {
+      "id": "collect_points",
+      "label": "Collect points",
+      "start_seconds": 18.11,
+      "duration_seconds": 1.0
+    },
+    {
+      "id": "level_complete",
+      "label": "Level complete",
+      "start_seconds": 19.23,
+      "duration_seconds": 1.8
+    },
+    {
+      "id": "gentle_bell",
+      "label": "Gentle golden bell",
+      "start_seconds": 21.15,
+      "duration_seconds": 0.85
+    },
+    {
+      "id": "soft_pop",
+      "label": "Soft pop",
+      "start_seconds": 22.12,
+      "duration_seconds": 0.12
+    },
+    {
+      "id": "arcade_start",
+      "label": "Arcade start",
+      "start_seconds": 22.36,
+      "duration_seconds": 1.05
+    }
+  ]
+}
